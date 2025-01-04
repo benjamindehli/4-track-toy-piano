@@ -10,6 +10,12 @@ Profile: [pianobook.co.uk/profile/benjamindehli](https://www.pianobook.co.uk/pro
 
 - Decent Sampler
 
+## Release notes
+
+### Version 1.0 (2024-03-17)
+
+- First version released
+
 ## Description
 
 A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at half speed results in an octave lower pitch.
