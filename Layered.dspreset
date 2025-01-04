@@ -22,12 +22,12 @@
       <!-- Damping -->
       <button x="19" y="92" width="96" height="72" style="image" value="0">
         <state name="damping_off" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
-          <binding type="amp" level="instrument" parameter="ENV_RELEASE" translation="fixed_value" translationValue="20" />
-          <binding type="amp" level="instrument" parameter="ENV_RELEASE_CURVE" translation="fixed_value" translationValue="-100" />
+          <binding type="amp" level="tag" identifier="damped" parameter="TAG_ENABLED" translation="fixed_value" translationValue="false"/>
+          <binding type="amp" level="tag" identifier="sustained" parameter="TAG_ENABLED" translation="fixed_value" translationValue="true"/>
         </state>
         <state name="damping_on" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
-          <binding type="amp" level="instrument" parameter="ENV_RELEASE" translation="fixed_value" translationValue="0.4" />
-          <binding type="amp" level="instrument" parameter="ENV_RELEASE_CURVE" translation="fixed_value" translationValue="100" />
+          <binding type="amp" level="tag" identifier="damped" parameter="TAG_ENABLED" translation="fixed_value" translationValue="true"/>
+          <binding type="amp" level="tag" identifier="sustained" parameter="TAG_ENABLED" translation="fixed_value" translationValue="false"/>
         </state>
       </button>
 
@@ -150,8 +150,8 @@
       </button>
     </tab>
   </ui>
-  <groups attack="0.000" attackCurve="50" decayCurve="100" releaseCurve="100" decay="0" sustain="1" release="0.07" volume="1" ampVelTrack="0">
-    <group tags="normal-speed">
+  <groups release="0.4" ampVelTrack="0">
+    <group tags="normal-speed,sustained" ampEnvEnabled="false">
       <sample loNote="60" hiNote="60" rootNote="60" path="Samples/NormalSpeed/NormalSpeed_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
       <sample loNote="61" hiNote="61" rootNote="61" path="Samples/NormalSpeed/NormalSpeed_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
       <sample loNote="62" hiNote="62" rootNote="62" path="Samples/NormalSpeed/NormalSpeed_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
@@ -171,8 +171,47 @@
       <sample loNote="76" hiNote="76" rootNote="76" path="Samples/NormalSpeed/NormalSpeed_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
       <sample loNote="77" hiNote="77" rootNote="77" path="Samples/NormalSpeed/NormalSpeed_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
     </group>
-
-    <group tags="half-speed">
+    <group tags="half-speed,sustained" ampEnvEnabled="false">
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/HalfSpeed/HalfSpeed_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/HalfSpeed/HalfSpeed_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/HalfSpeed/HalfSpeed_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/HalfSpeed/HalfSpeed_3D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/HalfSpeed/HalfSpeed_3E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/HalfSpeed/HalfSpeed_3F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/HalfSpeed/HalfSpeed_3F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/HalfSpeed/HalfSpeed_3G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/HalfSpeed/HalfSpeed_3G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/HalfSpeed/HalfSpeed_3A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/HalfSpeed/HalfSpeed_3A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/HalfSpeed/HalfSpeed_3B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/HalfSpeed/HalfSpeed_4C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/HalfSpeed/HalfSpeed_4C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/HalfSpeed/HalfSpeed_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/HalfSpeed/HalfSpeed_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/HalfSpeed/HalfSpeed_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/HalfSpeed/HalfSpeed_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+    </group>
+    <group tags="normal-speed,damped">
+      <sample loNote="60" hiNote="60" rootNote="60" path="Samples/NormalSpeed/NormalSpeed_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="61" hiNote="61" rootNote="61" path="Samples/NormalSpeed/NormalSpeed_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="62" hiNote="62" rootNote="62" path="Samples/NormalSpeed/NormalSpeed_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="63" hiNote="63" rootNote="63" path="Samples/NormalSpeed/NormalSpeed_3D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="64" hiNote="64" rootNote="64" path="Samples/NormalSpeed/NormalSpeed_3E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="65" hiNote="65" rootNote="65" path="Samples/NormalSpeed/NormalSpeed_3F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="66" hiNote="66" rootNote="66" path="Samples/NormalSpeed/NormalSpeed_3F#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="67" hiNote="67" rootNote="67" path="Samples/NormalSpeed/NormalSpeed_3G.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="68" hiNote="68" rootNote="68" path="Samples/NormalSpeed/NormalSpeed_3G#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="69" hiNote="69" rootNote="69" path="Samples/NormalSpeed/NormalSpeed_3A.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="70" hiNote="70" rootNote="70" path="Samples/NormalSpeed/NormalSpeed_3A#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="71" hiNote="71" rootNote="71" path="Samples/NormalSpeed/NormalSpeed_3B.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="72" hiNote="72" rootNote="72" path="Samples/NormalSpeed/NormalSpeed_4C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="73" hiNote="73" rootNote="73" path="Samples/NormalSpeed/NormalSpeed_4C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="74" hiNote="74" rootNote="74" path="Samples/NormalSpeed/NormalSpeed_4D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="75" hiNote="75" rootNote="75" path="Samples/NormalSpeed/NormalSpeed_4D#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="76" hiNote="76" rootNote="76" path="Samples/NormalSpeed/NormalSpeed_4E.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+      <sample loNote="77" hiNote="77" rootNote="77" path="Samples/NormalSpeed/NormalSpeed_4F.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
+    </group>
+    <group tags="half-speed,damped">
       <sample loNote="60" hiNote="60" rootNote="60" path="Samples/HalfSpeed/HalfSpeed_3C.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
       <sample loNote="61" hiNote="61" rootNote="61" path="Samples/HalfSpeed/HalfSpeed_3C#.wav" sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
       <sample loNote="62" hiNote="62" rootNote="62" path="Samples/HalfSpeed/HalfSpeed_3D.wav"  sampleRate="48000.0" pitchKeyTrack="1" loopEnabled="0"/>
@@ -250,13 +289,17 @@
   <modulators>
     <lfo shape="sine" frequency="5.45" modAmount="1.0">
       <binding type="amp" level="group" position="0" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+      <binding type="amp" level="group" position="2" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
     </lfo>
     <lfo shape="sine" frequency="3.89" modAmount="1.0">
       <binding type="amp" level="group" position="1" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
+      <binding type="amp" level="group" position="3" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
     </lfo>
     <lfo shape="square" frequency=".32" modAmount="0.05">
       <binding type="amp" level="group" position="0" parameter="GROUP_TUNING" />
       <binding type="amp" level="group" position="1" parameter="GROUP_TUNING" />
+      <binding type="amp" level="group" position="2" parameter="GROUP_TUNING" />
+      <binding type="amp" level="group" position="3" parameter="GROUP_TUNING" />
     </lfo>
     <lfo shape="sine" frequency=".71" modAmount="0.06">
       <binding type="amp" level="instrument" parameter="GLOBAL_TUNING" />
@@ -265,10 +308,10 @@
       <binding type="amp" level="instrument" position="1" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0" translationOutputMax="1" />
     </lfo>
     <lfo shape="sine" frequency="0.43" modAmount="1.0">
-      <binding type="amp" level="group" position="2" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0.001" translationOutputMax="0.02" />
+      <binding type="amp" level="group" position="4" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0.001" translationOutputMax="0.02" />
     </lfo>
     <lfo shape="sine" frequency="0.62" modAmount="1.0">
-      <binding type="amp" level="group" position="3" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0.001" translationOutputMax="0.02" />
+      <binding type="amp" level="group" position="5" parameter="AMP_VOLUME" modBehavior="set" translation="linear" translationOutputMin="0.001" translationOutputMax="0.02" />
     </lfo>
   </modulators>
 </DecentSampler>
