@@ -1,0 +1,2034 @@
+{
+  "name": "Split",
+  "amp": {
+    "attack": 0.0,
+    "decay": 0.0,
+    "sustain": 1.0,
+    "release": 0.4,
+    "volume": 1.0,
+    "velTrack": 0.0,
+    "enabled": true
+  },
+  "groups": [
+    {
+      "tags": [
+        "normal-speed",
+        "sustained"
+      ],
+      "ampEnvEnabled": false,
+      "samples": [
+        {
+          "source": "flac:NormalSpeed_3C",
+          "loNote": 60,
+          "hiNote": 60,
+          "rootNote": 60,
+          "lengthFrames": 295459,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3C#",
+          "loNote": 61,
+          "hiNote": 61,
+          "rootNote": 61,
+          "lengthFrames": 197279,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3D",
+          "loNote": 62,
+          "hiNote": 62,
+          "rootNote": 62,
+          "lengthFrames": 272161,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3D#",
+          "loNote": 63,
+          "hiNote": 63,
+          "rootNote": 63,
+          "lengthFrames": 275933,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3E",
+          "loNote": 64,
+          "hiNote": 64,
+          "rootNote": 64,
+          "lengthFrames": 259340,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3F",
+          "loNote": 65,
+          "hiNote": 65,
+          "rootNote": 65,
+          "lengthFrames": 358357,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3F#",
+          "loNote": 66,
+          "hiNote": 66,
+          "rootNote": 66,
+          "lengthFrames": 283475,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3G",
+          "loNote": 67,
+          "hiNote": 67,
+          "rootNote": 67,
+          "lengthFrames": 271407,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3G#",
+          "loNote": 68,
+          "hiNote": 68,
+          "rootNote": 68,
+          "lengthFrames": 371933,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3A",
+          "loNote": 69,
+          "hiNote": 69,
+          "rootNote": 69,
+          "lengthFrames": 365898,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3A#",
+          "loNote": 70,
+          "hiNote": 70,
+          "rootNote": 70,
+          "lengthFrames": 250289,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3B",
+          "loNote": 71,
+          "hiNote": 71,
+          "rootNote": 71,
+          "lengthFrames": 241239,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4C",
+          "loNote": 72,
+          "hiNote": 72,
+          "rootNote": 72,
+          "lengthFrames": 234450,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4C#",
+          "loNote": 73,
+          "hiNote": 73,
+          "rootNote": 73,
+          "lengthFrames": 244184,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4D",
+          "loNote": 74,
+          "hiNote": 74,
+          "rootNote": 74,
+          "lengthFrames": 269629,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4D#",
+          "loNote": 75,
+          "hiNote": 75,
+          "rootNote": 75,
+          "lengthFrames": 282721,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4E",
+          "loNote": 76,
+          "hiNote": 76,
+          "rootNote": 76,
+          "lengthFrames": 266696,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4F",
+          "loNote": 77,
+          "hiNote": 77,
+          "rootNote": 77,
+          "lengthFrames": 324417,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    },
+    {
+      "tags": [
+        "half-speed",
+        "sustained"
+      ],
+      "ampEnvEnabled": false,
+      "samples": [
+        {
+          "source": "flac:HalfSpeed_3C",
+          "loNote": 36,
+          "hiNote": 36,
+          "rootNote": 36,
+          "lengthFrames": 546976,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3C#",
+          "loNote": 37,
+          "hiNote": 37,
+          "rootNote": 37,
+          "lengthFrames": 362127,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3D",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 508121,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3D#",
+          "loNote": 39,
+          "hiNote": 39,
+          "rootNote": 39,
+          "lengthFrames": 537535,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3E",
+          "loNote": 40,
+          "hiNote": 40,
+          "rootNote": 40,
+          "lengthFrames": 444552,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3F",
+          "loNote": 41,
+          "hiNote": 41,
+          "rootNote": 41,
+          "lengthFrames": 662196,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3F#",
+          "loNote": 42,
+          "hiNote": 42,
+          "rootNote": 42,
+          "lengthFrames": 541305,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3G",
+          "loNote": 43,
+          "hiNote": 43,
+          "rootNote": 43,
+          "lengthFrames": 486033,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3G#",
+          "loNote": 44,
+          "hiNote": 44,
+          "rootNote": 44,
+          "lengthFrames": 565441,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3A",
+          "loNote": 45,
+          "hiNote": 45,
+          "rootNote": 45,
+          "lengthFrames": 610909,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3A#",
+          "loNote": 46,
+          "hiNote": 46,
+          "rootNote": 46,
+          "lengthFrames": 434747,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3B",
+          "loNote": 47,
+          "hiNote": 47,
+          "rootNote": 47,
+          "lengthFrames": 372687,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4C",
+          "loNote": 48,
+          "hiNote": 48,
+          "rootNote": 48,
+          "lengthFrames": 387016,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4C#",
+          "loNote": 49,
+          "hiNote": 49,
+          "rootNote": 49,
+          "lengthFrames": 370366,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4D",
+          "loNote": 50,
+          "hiNote": 50,
+          "rootNote": 50,
+          "lengthFrames": 370434,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4D#",
+          "loNote": 51,
+          "hiNote": 51,
+          "rootNote": 51,
+          "lengthFrames": 511891,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4E",
+          "loNote": 52,
+          "hiNote": 52,
+          "rootNote": 52,
+          "lengthFrames": 435748,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4F",
+          "loNote": 53,
+          "hiNote": 53,
+          "rootNote": 53,
+          "lengthFrames": 591838,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    },
+    {
+      "tags": [
+        "normal-speed",
+        "damped"
+      ],
+      "samples": [
+        {
+          "source": "flac:NormalSpeed_3C",
+          "loNote": 60,
+          "hiNote": 60,
+          "rootNote": 60,
+          "lengthFrames": 295459,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3C#",
+          "loNote": 61,
+          "hiNote": 61,
+          "rootNote": 61,
+          "lengthFrames": 197279,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3D",
+          "loNote": 62,
+          "hiNote": 62,
+          "rootNote": 62,
+          "lengthFrames": 272161,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3D#",
+          "loNote": 63,
+          "hiNote": 63,
+          "rootNote": 63,
+          "lengthFrames": 275933,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3E",
+          "loNote": 64,
+          "hiNote": 64,
+          "rootNote": 64,
+          "lengthFrames": 259340,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3F",
+          "loNote": 65,
+          "hiNote": 65,
+          "rootNote": 65,
+          "lengthFrames": 358357,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3F#",
+          "loNote": 66,
+          "hiNote": 66,
+          "rootNote": 66,
+          "lengthFrames": 283475,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3G",
+          "loNote": 67,
+          "hiNote": 67,
+          "rootNote": 67,
+          "lengthFrames": 271407,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3G#",
+          "loNote": 68,
+          "hiNote": 68,
+          "rootNote": 68,
+          "lengthFrames": 371933,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3A",
+          "loNote": 69,
+          "hiNote": 69,
+          "rootNote": 69,
+          "lengthFrames": 365898,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3A#",
+          "loNote": 70,
+          "hiNote": 70,
+          "rootNote": 70,
+          "lengthFrames": 250289,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_3B",
+          "loNote": 71,
+          "hiNote": 71,
+          "rootNote": 71,
+          "lengthFrames": 241239,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4C",
+          "loNote": 72,
+          "hiNote": 72,
+          "rootNote": 72,
+          "lengthFrames": 234450,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4C#",
+          "loNote": 73,
+          "hiNote": 73,
+          "rootNote": 73,
+          "lengthFrames": 244184,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4D",
+          "loNote": 74,
+          "hiNote": 74,
+          "rootNote": 74,
+          "lengthFrames": 269629,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4D#",
+          "loNote": 75,
+          "hiNote": 75,
+          "rootNote": 75,
+          "lengthFrames": 282721,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4E",
+          "loNote": 76,
+          "hiNote": 76,
+          "rootNote": 76,
+          "lengthFrames": 266696,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:NormalSpeed_4F",
+          "loNote": 77,
+          "hiNote": 77,
+          "rootNote": 77,
+          "lengthFrames": 324417,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    },
+    {
+      "tags": [
+        "half-speed",
+        "damped"
+      ],
+      "samples": [
+        {
+          "source": "flac:HalfSpeed_3C",
+          "loNote": 36,
+          "hiNote": 36,
+          "rootNote": 36,
+          "lengthFrames": 546976,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3C#",
+          "loNote": 37,
+          "hiNote": 37,
+          "rootNote": 37,
+          "lengthFrames": 362127,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3D",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 508121,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3D#",
+          "loNote": 39,
+          "hiNote": 39,
+          "rootNote": 39,
+          "lengthFrames": 537535,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3E",
+          "loNote": 40,
+          "hiNote": 40,
+          "rootNote": 40,
+          "lengthFrames": 444552,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3F",
+          "loNote": 41,
+          "hiNote": 41,
+          "rootNote": 41,
+          "lengthFrames": 662196,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3F#",
+          "loNote": 42,
+          "hiNote": 42,
+          "rootNote": 42,
+          "lengthFrames": 541305,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3G",
+          "loNote": 43,
+          "hiNote": 43,
+          "rootNote": 43,
+          "lengthFrames": 486033,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3G#",
+          "loNote": 44,
+          "hiNote": 44,
+          "rootNote": 44,
+          "lengthFrames": 565441,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3A",
+          "loNote": 45,
+          "hiNote": 45,
+          "rootNote": 45,
+          "lengthFrames": 610909,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3A#",
+          "loNote": 46,
+          "hiNote": 46,
+          "rootNote": 46,
+          "lengthFrames": 434747,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_3B",
+          "loNote": 47,
+          "hiNote": 47,
+          "rootNote": 47,
+          "lengthFrames": 372687,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4C",
+          "loNote": 48,
+          "hiNote": 48,
+          "rootNote": 48,
+          "lengthFrames": 387016,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4C#",
+          "loNote": 49,
+          "hiNote": 49,
+          "rootNote": 49,
+          "lengthFrames": 370366,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4D",
+          "loNote": 50,
+          "hiNote": 50,
+          "rootNote": 50,
+          "lengthFrames": 370434,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4D#",
+          "loNote": 51,
+          "hiNote": 51,
+          "rootNote": 51,
+          "lengthFrames": 511891,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4E",
+          "loNote": 52,
+          "hiNote": 52,
+          "rootNote": 52,
+          "lengthFrames": 435748,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:HalfSpeed_4F",
+          "loNote": 53,
+          "hiNote": 53,
+          "rootNote": 53,
+          "lengthFrames": 591838,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    },
+    {
+      "tags": [
+        "normal-speed",
+        "key-off"
+      ],
+      "trigger": "release",
+      "volume": 0.025,
+      "velTrack": 1.0,
+      "samples": [
+        {
+          "source": "flac:Release_NormalSpeed_3C",
+          "loNote": 60,
+          "hiNote": 60,
+          "rootNote": 60,
+          "lengthFrames": 39652,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3C#",
+          "loNote": 61,
+          "hiNote": 61,
+          "rootNote": 61,
+          "lengthFrames": 38148,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3D",
+          "loNote": 62,
+          "hiNote": 62,
+          "rootNote": 62,
+          "lengthFrames": 39045,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3D#",
+          "loNote": 63,
+          "hiNote": 63,
+          "rootNote": 63,
+          "lengthFrames": 44848,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3E",
+          "loNote": 64,
+          "hiNote": 64,
+          "rootNote": 64,
+          "lengthFrames": 40621,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3F",
+          "loNote": 65,
+          "hiNote": 65,
+          "rootNote": 65,
+          "lengthFrames": 37863,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3F#",
+          "loNote": 66,
+          "hiNote": 66,
+          "rootNote": 66,
+          "lengthFrames": 38257,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3G",
+          "loNote": 67,
+          "hiNote": 67,
+          "rootNote": 67,
+          "lengthFrames": 42000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3G#",
+          "loNote": 68,
+          "hiNote": 68,
+          "rootNote": 68,
+          "lengthFrames": 43970,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3A",
+          "loNote": 69,
+          "hiNote": 69,
+          "rootNote": 69,
+          "lengthFrames": 37970,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3A#",
+          "loNote": 70,
+          "hiNote": 70,
+          "rootNote": 70,
+          "lengthFrames": 39833,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_3B",
+          "loNote": 71,
+          "hiNote": 71,
+          "rootNote": 71,
+          "lengthFrames": 37773,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4C",
+          "loNote": 72,
+          "hiNote": 72,
+          "rootNote": 72,
+          "lengthFrames": 38059,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4C#",
+          "loNote": 73,
+          "hiNote": 73,
+          "rootNote": 73,
+          "lengthFrames": 37575,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4D",
+          "loNote": 74,
+          "hiNote": 74,
+          "rootNote": 74,
+          "lengthFrames": 39242,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4D#",
+          "loNote": 75,
+          "hiNote": 75,
+          "rootNote": 75,
+          "lengthFrames": 38257,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4E",
+          "loNote": 76,
+          "hiNote": 76,
+          "rootNote": 76,
+          "lengthFrames": 42591,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_NormalSpeed_4F",
+          "loNote": 77,
+          "hiNote": 77,
+          "rootNote": 77,
+          "lengthFrames": 37970,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    },
+    {
+      "tags": [
+        "half-speed",
+        "key-off"
+      ],
+      "trigger": "release",
+      "volume": 0.025,
+      "velTrack": 1.0,
+      "samples": [
+        {
+          "source": "flac:Release_HalfSpeed_3C",
+          "loNote": 36,
+          "hiNote": 36,
+          "rootNote": 36,
+          "lengthFrames": 59182,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3C#",
+          "loNote": 37,
+          "hiNote": 37,
+          "rootNote": 37,
+          "lengthFrames": 66680,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3D",
+          "loNote": 38,
+          "hiNote": 38,
+          "rootNote": 38,
+          "lengthFrames": 63152,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3D#",
+          "loNote": 39,
+          "hiNote": 39,
+          "rootNote": 39,
+          "lengthFrames": 72394,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3E",
+          "loNote": 40,
+          "hiNote": 40,
+          "rootNote": 40,
+          "lengthFrames": 71015,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3F",
+          "loNote": 41,
+          "hiNote": 41,
+          "rootNote": 41,
+          "lengthFrames": 66090,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3F#",
+          "loNote": 42,
+          "hiNote": 42,
+          "rootNote": 42,
+          "lengthFrames": 68650,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3G",
+          "loNote": 43,
+          "hiNote": 43,
+          "rootNote": 43,
+          "lengthFrames": 68454,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3G#",
+          "loNote": 44,
+          "hiNote": 44,
+          "rootNote": 44,
+          "lengthFrames": 69636,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3A",
+          "loNote": 45,
+          "hiNote": 45,
+          "rootNote": 45,
+          "lengthFrames": 67970,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3A#",
+          "loNote": 46,
+          "hiNote": 46,
+          "rootNote": 46,
+          "lengthFrames": 68256,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_3B",
+          "loNote": 47,
+          "hiNote": 47,
+          "rootNote": 47,
+          "lengthFrames": 65409,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4C",
+          "loNote": 48,
+          "hiNote": 48,
+          "rootNote": 48,
+          "lengthFrames": 68848,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4C#",
+          "loNote": 49,
+          "hiNote": 49,
+          "rootNote": 49,
+          "lengthFrames": 62453,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4D",
+          "loNote": 50,
+          "hiNote": 50,
+          "rootNote": 50,
+          "lengthFrames": 66681,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4D#",
+          "loNote": 51,
+          "hiNote": 51,
+          "rootNote": 51,
+          "lengthFrames": 66000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4E",
+          "loNote": 52,
+          "hiNote": 52,
+          "rootNote": 52,
+          "lengthFrames": 78000,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        },
+        {
+          "source": "flac:Release_HalfSpeed_4F",
+          "loNote": 53,
+          "hiNote": 53,
+          "rootNote": 53,
+          "lengthFrames": 68650,
+          "sampleRate": 48000.0,
+          "pitchKeyTrack": true
+        }
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "lowpass",
+      "enabled": false,
+      "frequency": 4277.0,
+      "resonance": 2.0
+    },
+    {
+      "type": "highpass",
+      "enabled": false,
+      "frequency": 314.0,
+      "resonance": 1.35
+    },
+    {
+      "type": "wave_shaper",
+      "enabled": false,
+      "drive": 1.0,
+      "outputLevel": 1.0
+    },
+    {
+      "type": "convolution",
+      "enabled": false,
+      "mix": 0.0,
+      "outputLevel": -16.0,
+      "ir": "ir:echo-short",
+      "normalizeIr": false
+    },
+    {
+      "type": "convolution",
+      "enabled": false,
+      "mix": 0.0,
+      "outputLevel": -16.0,
+      "ir": "ir:reverb-short",
+      "normalizeIr": false
+    },
+    {
+      "type": "gain",
+      "enabled": true,
+      "gain": 9.0
+    }
+  ],
+  "modulators": [
+    {
+      "shape": "sine",
+      "frequency": 5.45,
+      "modAmount": 1.0,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.0,
+          "translationOutputMax": 1.0,
+          "groupIndex": 0,
+          "position": 0
+        },
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.0,
+          "translationOutputMax": 1.0,
+          "groupIndex": 2,
+          "position": 2
+        }
+      ]
+    },
+    {
+      "shape": "sine",
+      "frequency": 3.89,
+      "modAmount": 1.0,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.0,
+          "translationOutputMax": 1.0,
+          "groupIndex": 1,
+          "position": 1
+        },
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.0,
+          "translationOutputMax": 1.0,
+          "groupIndex": 3,
+          "position": 3
+        }
+      ]
+    },
+    {
+      "shape": "square",
+      "frequency": 0.32,
+      "modAmount": 0.05,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "GROUP_TUNING",
+          "groupIndex": 0,
+          "position": 0
+        },
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "GROUP_TUNING",
+          "groupIndex": 1,
+          "position": 1
+        },
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "GROUP_TUNING",
+          "groupIndex": 2,
+          "position": 2
+        },
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "GROUP_TUNING",
+          "groupIndex": 3,
+          "position": 3
+        }
+      ]
+    },
+    {
+      "shape": "sine",
+      "frequency": 0.71,
+      "modAmount": 0.06,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "instrument",
+          "parameter": "GLOBAL_TUNING"
+        }
+      ]
+    },
+    {
+      "shape": "saw",
+      "frequency": 0.17,
+      "modAmount": 0.05,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "instrument",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.0,
+          "translationOutputMax": 1.0
+        }
+      ]
+    },
+    {
+      "shape": "sine",
+      "frequency": 0.43,
+      "modAmount": 1.0,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.001,
+          "translationOutputMax": 0.02,
+          "groupIndex": 4,
+          "position": 4
+        }
+      ]
+    },
+    {
+      "shape": "sine",
+      "frequency": 0.62,
+      "modAmount": 1.0,
+      "bindings": [
+        {
+          "type": "amp",
+          "level": "group",
+          "parameter": "AMP_VOLUME",
+          "translation": "linear",
+          "modBehavior": "set",
+          "translationOutputMin": 0.001,
+          "translationOutputMax": 0.02,
+          "groupIndex": 5,
+          "position": 5
+        }
+      ]
+    }
+  ],
+  "ccBindings": [
+    {
+      "cc": 1,
+      "parameter": "MOD_AMOUNT",
+      "normMin": 0.0,
+      "normMax": 1.0
+    },
+    {
+      "cc": 1,
+      "parameter": "MOD_AMOUNT",
+      "normMin": 0.0,
+      "normMax": 1.0
+    }
+  ],
+  "ui": {
+    "background": "img:background",
+    "width": 812,
+    "height": 375,
+    "layoutMode": "relative",
+    "bgMode": "top_left",
+    "tabs": [
+      {
+        "name": "main",
+        "controls": [
+          {
+            "rect": {
+              "x": 153,
+              "y": 76,
+              "width": 41,
+              "height": 41
+            },
+            "label": "normal-speed_volume",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 2.0,
+            "value": 1.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "tag",
+                "identifier": "normal-speed",
+                "parameter": "AMP_VOLUME"
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 242,
+              "y": 76,
+              "width": 41,
+              "height": 41
+            },
+            "label": "normal-speed_lfo-depth",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "modulator",
+                "level": "instrument",
+                "parameter": "MOD_AMOUNT",
+                "position": 0
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 331,
+              "y": 76,
+              "width": 41,
+              "height": 41
+            },
+            "label": "normal-speed_lfo-rate",
+            "valueType": "float",
+            "min": 1.0,
+            "max": 9.0,
+            "value": 5.45,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "modulator",
+                "level": "instrument",
+                "parameter": "FREQUENCY",
+                "position": 0
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 153,
+              "y": 157,
+              "width": 41,
+              "height": 41
+            },
+            "label": "half-speed_volume",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 2.0,
+            "value": 1.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "amp",
+                "level": "tag",
+                "identifier": "half-speed",
+                "parameter": "AMP_VOLUME"
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 242,
+              "y": 157,
+              "width": 41,
+              "height": 41
+            },
+            "label": "half-speed_lfo-depth",
+            "valueType": "float",
+            "min": 0.0,
+            "max": 1.0,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "modulator",
+                "level": "instrument",
+                "parameter": "MOD_AMOUNT",
+                "position": 1
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 331,
+              "y": 157,
+              "width": 41,
+              "height": 41
+            },
+            "label": "half-speed_lfo-rate",
+            "valueType": "float",
+            "min": 1.0,
+            "max": 9.0,
+            "value": 3.89,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "modulator",
+                "level": "instrument",
+                "parameter": "FREQUENCY",
+                "position": 1
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 617,
+              "y": 76,
+              "width": 41,
+              "height": 41
+            },
+            "label": "echo_mix",
+            "valueType": "percent",
+            "min": 0.0,
+            "max": 100.0,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "effect",
+                "level": "instrument",
+                "parameter": "FX_MIX",
+                "factor": 0.01,
+                "effectIndex": 3
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 617,
+              "y": 157,
+              "width": 41,
+              "height": 41
+            },
+            "label": "reverb_mix",
+            "valueType": "percent",
+            "min": 0.0,
+            "max": 100.0,
+            "value": 0.0,
+            "textColor": "FF000000",
+            "style": "custom_skin_vertical_drag",
+            "skin": {
+              "image": "img:knob",
+              "numFrames": 61,
+              "orientation": "vertical"
+            },
+            "mouseDragSensitivity": 100.0,
+            "bindings": [
+              {
+                "type": "effect",
+                "level": "instrument",
+                "parameter": "FX_MIX",
+                "factor": 0.01,
+                "effectIndex": 4
+              }
+            ]
+          }
+        ],
+        "buttons": [
+          {
+            "rect": {
+              "x": 19,
+              "y": 61,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "velocity_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "amp",
+                    "level": "instrument",
+                    "parameter": "AMP_VEL_TRACK",
+                    "translation": "fixed_value",
+                    "translationValue": "0"
+                  }
+                ]
+              },
+              {
+                "name": "velocity_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "amp",
+                    "level": "instrument",
+                    "parameter": "AMP_VEL_TRACK",
+                    "translation": "fixed_value",
+                    "translationValue": "1"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 19,
+              "y": 142,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "damping_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "amp",
+                    "level": "tag",
+                    "identifier": "damped",
+                    "parameter": "TAG_ENABLED",
+                    "translation": "fixed_value",
+                    "translationValue": false
+                  },
+                  {
+                    "type": "amp",
+                    "level": "tag",
+                    "identifier": "sustained",
+                    "parameter": "TAG_ENABLED",
+                    "translation": "fixed_value",
+                    "translationValue": true
+                  }
+                ]
+              },
+              {
+                "name": "damping_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "amp",
+                    "level": "tag",
+                    "identifier": "damped",
+                    "parameter": "TAG_ENABLED",
+                    "translation": "fixed_value",
+                    "translationValue": true
+                  },
+                  {
+                    "type": "amp",
+                    "level": "tag",
+                    "identifier": "sustained",
+                    "parameter": "TAG_ENABLED",
+                    "translation": "fixed_value",
+                    "translationValue": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 415,
+              "y": 61,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "echo_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 3,
+                    "translationValue": false
+                  }
+                ]
+              },
+              {
+                "name": "echo_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 3,
+                    "translationValue": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 504,
+              "y": 61,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "echo-long_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_IR_FILE",
+                    "translation": "fixed_value",
+                    "effectIndex": 3,
+                    "translationValue": "ir:echo-short"
+                  }
+                ]
+              },
+              {
+                "name": "echo-long_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_IR_FILE",
+                    "translation": "fixed_value",
+                    "effectIndex": 3,
+                    "translationValue": "ir:echo-long"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 415,
+              "y": 142,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "reverb_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 4,
+                    "translationValue": false
+                  }
+                ]
+              },
+              {
+                "name": "reverb_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 4,
+                    "translationValue": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 504,
+              "y": 142,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 0,
+            "states": [
+              {
+                "name": "reverb-long_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_IR_FILE",
+                    "translation": "fixed_value",
+                    "effectIndex": 4,
+                    "translationValue": "ir:reverb-short"
+                  }
+                ]
+              },
+              {
+                "name": "reverb-long_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_IR_FILE",
+                    "translation": "fixed_value",
+                    "effectIndex": 4,
+                    "translationValue": "ir:reverb-long"
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "rect": {
+              "x": 702,
+              "y": 61,
+              "width": 96,
+              "height": 72
+            },
+            "style": "image",
+            "value": 1,
+            "states": [
+              {
+                "name": "hi-fi_off",
+                "mainImage": "img:light-switch_off",
+                "hoverImage": "img:light-switch_off",
+                "clickImage": "img:light-switch_on",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_FREQUENCY",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": "4277"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_RESONANCE",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": "2.0"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_FREQUENCY",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": "314"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_RESONANCE",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": "1.35"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": true
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_DRIVE",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": "4.11"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_OUTPUT_LEVEL",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": "0.2"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 2,
+                    "translationValue": "0.05"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 3,
+                    "translationValue": "0.06"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 4,
+                    "translationValue": "0.05"
+                  }
+                ]
+              },
+              {
+                "name": "hi-fi_on",
+                "mainImage": "img:light-switch_on",
+                "hoverImage": "img:light-switch_on",
+                "clickImage": "img:light-switch_off",
+                "bindings": [
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_FREQUENCY",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": "22000"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_RESONANCE",
+                    "translation": "fixed_value",
+                    "effectIndex": 0,
+                    "translationValue": "0.7"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_FREQUENCY",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": "0"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_FILTER_RESONANCE",
+                    "translation": "fixed_value",
+                    "effectIndex": 1,
+                    "translationValue": "0.7"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "ENABLED",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": false
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_DRIVE",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": "1"
+                  },
+                  {
+                    "type": "effect",
+                    "level": "instrument",
+                    "parameter": "FX_OUTPUT_LEVEL",
+                    "translation": "fixed_value",
+                    "effectIndex": 2,
+                    "translationValue": "1"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 2,
+                    "translationValue": "0"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 3,
+                    "translationValue": "0"
+                  },
+                  {
+                    "type": "modulator",
+                    "level": "instrument",
+                    "parameter": "MOD_AMOUNT",
+                    "translation": "fixed_value",
+                    "position": 4,
+                    "translationValue": "0"
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "images": []
+      }
+    ],
+    "keyboard": {
+      "colors": [
+        {
+          "loNote": 0,
+          "hiNote": 35,
+          "color": "FF000000"
+        },
+        {
+          "loNote": 36,
+          "hiNote": 53,
+          "color": "FFFFFFFF"
+        },
+        {
+          "loNote": 54,
+          "hiNote": 59,
+          "color": "FF000000"
+        },
+        {
+          "loNote": 60,
+          "hiNote": 77,
+          "color": "FFFFFFFF"
+        },
+        {
+          "loNote": 78,
+          "hiNote": 127,
+          "color": "FF000000"
+        }
+      ]
+    }
+  }
+}
