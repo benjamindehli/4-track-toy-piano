@@ -275,7 +275,7 @@
   <effects>
     <effect type="lowpass" resonance="2" frequency="4277" enabled="false" />
     <effect type="highpass" resonance="1.35" frequency="314" enabled="false" />
-    <effect type="wave_shaper" drive="4.11" outputLevel="0.13" enabled="false" />
+    <effect type="wave_shaper" drive="1" outputLevel="1" enabled="false" />
     <effect type="convolution" irFile="IR/echo-short.wav" mix="0.0" enabled="false" />
     <effect type="convolution" irFile="IR/reverb-short.wav" mix="0.0" enabled="false" />
     <effect type="gain" level="9" />
