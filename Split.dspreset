@@ -77,7 +77,7 @@
 
       <!-- Echo mix -->
       <control x="617" y="26" width="41" height="41" parameterName="echo_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="3" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" factor="0.01" />
       </control>
 
       <!-- Reverb on -->
@@ -102,7 +102,7 @@
 
       <!-- Reverb mix -->
       <control x="617" y="107" width="41" height="41" parameterName="reverb_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
-        <binding type="effect" level="instrument" position="4" parameter="FX_MIX" factor="0.01" />
+        <binding type="effect" level="instrument" effectIndex="4" parameter="FX_MIX" factor="0.01" />
       </control>
 
       <!-- Hi-Fi -->
