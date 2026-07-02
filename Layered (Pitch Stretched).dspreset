@@ -11,10 +11,10 @@
 
       <!-- Velocity -->
       <button x="19" y="11" width="96" height="72" style="image" value="0">
-        <state name="velocity_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+        <state name="velocity_off" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
           <binding type="amp" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" translationValue="0" />
         </state>
-        <state name="velocity_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+        <state name="velocity_on" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
           <binding type="amp" level="instrument" parameter="AMP_VEL_TRACK" translation="fixed_value" translationValue="1" />
         </state>
       </button>
@@ -105,7 +105,7 @@
 
       <!-- Hi-Fi -->
       <button x="702" y="11" width="96" height="72" style="image" value="1">
-        <state name="hi-fi_on" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
+        <state name="hi-fi_off" mainImage="Resources/light-switch_off.png" hoverImage="Resources/light-switch_off.png" clickImage="Resources/light-switch_on.png">
           <!-- Low pass filter -->
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="true" />
           <binding type="effect" level="instrument" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="fixed_value" translationValue="4277" />
@@ -126,7 +126,7 @@
           <binding type="modulator" level="instrument" modulatorIndex="3" parameter="MOD_AMOUNT" translation="fixed_value" translationValue="0.06" />
           <binding type="modulator" level="instrument" modulatorIndex="4" parameter="MOD_AMOUNT" translation="fixed_value" translationValue="0.05" />
         </state>
-        <state name="hi-fi_off" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
+        <state name="hi-fi_on" mainImage="Resources/light-switch_on.png" hoverImage="Resources/light-switch_on.png" clickImage="Resources/light-switch_off.png">
           <!-- Low pass filter -->
           <binding type="effect" level="instrument" effectIndex="0" parameter="ENABLED" translation="fixed_value" translationValue="false" />
           <binding type="effect" level="instrument" effectIndex="0" parameter="FX_FILTER_FREQUENCY" translation="fixed_value" translationValue="22000" />
