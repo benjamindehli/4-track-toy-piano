@@ -2011,7 +2011,7 @@
         {
           "loNote": 36,
           "hiNote": 53,
-          "color": "FFFFFFFF"
+          "color": "none"
         },
         {
           "loNote": 54,
@@ -2021,7 +2021,7 @@
         {
           "loNote": 60,
           "hiNote": 77,
-          "color": "FFFFFFFF"
+          "color": "none"
         },
         {
           "loNote": 78,

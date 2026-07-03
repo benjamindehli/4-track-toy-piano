@@ -7945,18 +7945,43 @@
       "colors": [
         {
           "loNote": 0,
+          "hiNote": 5,
+          "color": "FFD22D2D"
+        },
+        {
+          "loNote": 6,
+          "hiNote": 23,
+          "color": "FFFF5544"
+        },
+        {
+          "loNote": 24,
+          "hiNote": 41,
+          "color": "FFFFA544"
+        },
+        {
+          "loNote": 42,
           "hiNote": 59,
-          "color": "FF000000"
+          "color": "FFFFFF44"
         },
         {
           "loNote": 60,
           "hiNote": 77,
-          "color": "FFFFFFFF"
+          "color": "none"
         },
         {
           "loNote": 78,
+          "hiNote": 95,
+          "color": "FFFFFF44"
+        },
+        {
+          "loNote": 96,
+          "hiNote": 113,
+          "color": "FFFFA544"
+        },
+        {
+          "loNote": 114,
           "hiNote": 127,
-          "color": "FF000000"
+          "color": "FFFF5544"
         }
       ]
     }
