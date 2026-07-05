@@ -11,6 +11,7 @@
   },
   "groups": [
     {
+      "uid": "grp_0",
       "tags": [
         "normal-speed",
         "sustained"
@@ -1172,6 +1173,7 @@
       ]
     },
     {
+      "uid": "grp_1",
       "tags": [
         "half-speed",
         "sustained"
@@ -2333,6 +2335,7 @@
       ]
     },
     {
+      "uid": "grp_2",
       "tags": [
         "normal-speed",
         "damped"
@@ -3493,6 +3496,7 @@
       ]
     },
     {
+      "uid": "grp_3",
       "tags": [
         "half-speed",
         "damped"
@@ -4653,6 +4657,7 @@
       ]
     },
     {
+      "uid": "grp_4",
       "tags": [
         "normal-speed",
         "key-off"
@@ -5816,6 +5821,7 @@
       ]
     },
     {
+      "uid": "grp_5",
       "tags": [
         "half-speed",
         "key-off"
@@ -6981,24 +6987,28 @@
   ],
   "effects": [
     {
+      "id": "fx_lowpass",
       "type": "lowpass",
       "enabled": false,
       "frequency": 4277.0,
       "resonance": 2.0
     },
     {
+      "id": "fx_highpass",
       "type": "highpass",
       "enabled": false,
       "frequency": 314.0,
       "resonance": 1.35
     },
     {
+      "id": "fx_wave_shaper",
       "type": "wave_shaper",
       "enabled": false,
       "drive": 1.0,
       "outputLevel": 1.0
     },
     {
+      "id": "fx_convolution",
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
@@ -7007,6 +7017,7 @@
       "normalizeIr": false
     },
     {
+      "id": "fx_convolution_2",
       "type": "convolution",
       "enabled": false,
       "mix": 0.0,
@@ -7015,6 +7026,7 @@
       "normalizeIr": false
     },
     {
+      "id": "fx_gain",
       "type": "gain",
       "enabled": true,
       "gain": 9.0
@@ -7022,6 +7034,7 @@
   ],
   "modulators": [
     {
+      "id": "mod_0",
       "shape": "sine",
       "frequency": 5.45,
       "modAmount": 1.0,
@@ -7029,6 +7042,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_0",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7040,6 +7054,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_2",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7051,6 +7066,7 @@
       ]
     },
     {
+      "id": "mod_1",
       "shape": "sine",
       "frequency": 3.89,
       "modAmount": 1.0,
@@ -7058,6 +7074,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_1",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7069,6 +7086,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_3",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7080,6 +7098,7 @@
       ]
     },
     {
+      "id": "mod_2",
       "shape": "square",
       "frequency": 0.32,
       "modAmount": 0.05,
@@ -7087,6 +7106,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_0",
           "parameter": "GROUP_TUNING",
           "groupIndex": 0,
           "position": 0
@@ -7094,6 +7114,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_1",
           "parameter": "GROUP_TUNING",
           "groupIndex": 1,
           "position": 1
@@ -7101,6 +7122,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_2",
           "parameter": "GROUP_TUNING",
           "groupIndex": 2,
           "position": 2
@@ -7108,6 +7130,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_3",
           "parameter": "GROUP_TUNING",
           "groupIndex": 3,
           "position": 3
@@ -7115,6 +7138,7 @@
       ]
     },
     {
+      "id": "mod_3",
       "shape": "sine",
       "frequency": 0.71,
       "modAmount": 0.06,
@@ -7127,6 +7151,7 @@
       ]
     },
     {
+      "id": "mod_4",
       "shape": "saw",
       "frequency": 0.17,
       "modAmount": 0.05,
@@ -7143,6 +7168,7 @@
       ]
     },
     {
+      "id": "mod_5",
       "shape": "sine",
       "frequency": 0.43,
       "modAmount": 1.0,
@@ -7150,6 +7176,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_4",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7161,6 +7188,7 @@
       ]
     },
     {
+      "id": "mod_6",
       "shape": "sine",
       "frequency": 0.62,
       "modAmount": 1.0,
@@ -7168,6 +7196,7 @@
         {
           "type": "amp",
           "level": "group",
+          "targetId": "grp_5",
           "parameter": "AMP_VOLUME",
           "translation": "linear",
           "modBehavior": "set",
@@ -7183,12 +7212,16 @@
     {
       "cc": 1,
       "parameter": "MOD_AMOUNT",
+      "targetId": "ctl_1",
+      "controlIndex": 3,
       "normMin": 0.0,
       "normMax": 1.0
     },
     {
       "cc": 1,
       "parameter": "MOD_AMOUNT",
+      "targetId": "ctl_4",
+      "controlIndex": 6,
       "normMin": 0.0,
       "normMax": 1.0
     }
@@ -7204,6 +7237,7 @@
         "name": "main",
         "controls": [
           {
+            "id": "ctl_0",
             "rect": {
               "x": 153,
               "y": 76,
@@ -7223,6 +7257,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 2,
             "bindings": [
               {
                 "type": "amp",
@@ -7233,6 +7268,7 @@
             ]
           },
           {
+            "id": "ctl_1",
             "rect": {
               "x": 242,
               "y": 76,
@@ -7252,16 +7288,19 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 3,
             "bindings": [
               {
                 "type": "modulator",
                 "level": "instrument",
+                "targetId": "mod_0",
                 "parameter": "MOD_AMOUNT",
                 "position": 0
               }
             ]
           },
           {
+            "id": "ctl_2",
             "rect": {
               "x": 331,
               "y": 76,
@@ -7281,16 +7320,19 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 4,
             "bindings": [
               {
                 "type": "modulator",
                 "level": "instrument",
+                "targetId": "mod_0",
                 "parameter": "FREQUENCY",
                 "position": 0
               }
             ]
           },
           {
+            "id": "ctl_3",
             "rect": {
               "x": 153,
               "y": 157,
@@ -7310,6 +7352,7 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 5,
             "bindings": [
               {
                 "type": "amp",
@@ -7320,6 +7363,7 @@
             ]
           },
           {
+            "id": "ctl_4",
             "rect": {
               "x": 242,
               "y": 157,
@@ -7339,16 +7383,19 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 6,
             "bindings": [
               {
                 "type": "modulator",
                 "level": "instrument",
+                "targetId": "mod_1",
                 "parameter": "MOD_AMOUNT",
                 "position": 1
               }
             ]
           },
           {
+            "id": "ctl_5",
             "rect": {
               "x": 331,
               "y": 157,
@@ -7368,16 +7415,19 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 7,
             "bindings": [
               {
                 "type": "modulator",
                 "level": "instrument",
+                "targetId": "mod_1",
                 "parameter": "FREQUENCY",
                 "position": 1
               }
             ]
           },
           {
+            "id": "ctl_6",
             "rect": {
               "x": 617,
               "y": 76,
@@ -7397,10 +7447,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 10,
             "bindings": [
               {
                 "type": "effect",
                 "level": "instrument",
+                "targetId": "fx_convolution",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
                 "effectIndex": 3
@@ -7408,6 +7460,7 @@
             ]
           },
           {
+            "id": "ctl_7",
             "rect": {
               "x": 617,
               "y": 157,
@@ -7427,10 +7480,12 @@
               "orientation": "vertical"
             },
             "mouseDragSensitivity": 100.0,
+            "controlIndex": 13,
             "bindings": [
               {
                 "type": "effect",
                 "level": "instrument",
+                "targetId": "fx_convolution_2",
                 "parameter": "FX_MIX",
                 "factor": 0.01,
                 "effectIndex": 4
@@ -7440,6 +7495,7 @@
         ],
         "buttons": [
           {
+            "id": "btn_0",
             "rect": {
               "x": 19,
               "y": 61,
@@ -7448,6 +7504,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 0,
             "states": [
               {
                 "name": "velocity_off",
@@ -7482,6 +7539,7 @@
             ]
           },
           {
+            "id": "btn_1",
             "rect": {
               "x": 19,
               "y": 142,
@@ -7490,6 +7548,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 1,
             "states": [
               {
                 "name": "damping_off",
@@ -7542,6 +7601,7 @@
             ]
           },
           {
+            "id": "btn_2",
             "rect": {
               "x": 415,
               "y": 61,
@@ -7550,6 +7610,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 8,
             "states": [
               {
                 "name": "echo_off",
@@ -7560,6 +7621,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 3,
@@ -7576,6 +7638,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 3,
@@ -7586,6 +7649,7 @@
             ]
           },
           {
+            "id": "btn_3",
             "rect": {
               "x": 504,
               "y": 61,
@@ -7594,6 +7658,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 9,
             "states": [
               {
                 "name": "echo-long_off",
@@ -7604,6 +7669,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
                     "effectIndex": 3,
@@ -7620,6 +7686,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
                     "effectIndex": 3,
@@ -7630,6 +7697,7 @@
             ]
           },
           {
+            "id": "btn_4",
             "rect": {
               "x": 415,
               "y": 142,
@@ -7638,6 +7706,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 11,
             "states": [
               {
                 "name": "reverb_off",
@@ -7648,6 +7717,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 4,
@@ -7664,6 +7734,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution_2",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 4,
@@ -7674,6 +7745,7 @@
             ]
           },
           {
+            "id": "btn_5",
             "rect": {
               "x": 504,
               "y": 142,
@@ -7682,6 +7754,7 @@
             },
             "style": "image",
             "value": 0,
+            "controlIndex": 12,
             "states": [
               {
                 "name": "reverb-long_off",
@@ -7692,6 +7765,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
                     "effectIndex": 4,
@@ -7708,6 +7782,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_convolution_2",
                     "parameter": "FX_IR_FILE",
                     "translation": "fixed_value",
                     "effectIndex": 4,
@@ -7718,6 +7793,7 @@
             ]
           },
           {
+            "id": "btn_6",
             "rect": {
               "x": 702,
               "y": 61,
@@ -7726,6 +7802,7 @@
             },
             "style": "image",
             "value": 1,
+            "controlIndex": 14,
             "states": [
               {
                 "name": "hi-fi_off",
@@ -7736,6 +7813,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7744,6 +7822,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "FX_FILTER_FREQUENCY",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7752,6 +7831,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "FX_FILTER_RESONANCE",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7760,6 +7840,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7768,6 +7849,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "FX_FILTER_FREQUENCY",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7776,6 +7858,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "FX_FILTER_RESONANCE",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7784,6 +7867,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7792,6 +7876,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7800,6 +7885,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7808,6 +7894,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_2",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 2,
@@ -7816,6 +7903,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_3",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 3,
@@ -7824,6 +7912,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_4",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 4,
@@ -7840,6 +7929,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7848,6 +7938,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "FX_FILTER_FREQUENCY",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7856,6 +7947,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_lowpass",
                     "parameter": "FX_FILTER_RESONANCE",
                     "translation": "fixed_value",
                     "effectIndex": 0,
@@ -7864,6 +7956,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7872,6 +7965,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "FX_FILTER_FREQUENCY",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7880,6 +7974,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_highpass",
                     "parameter": "FX_FILTER_RESONANCE",
                     "translation": "fixed_value",
                     "effectIndex": 1,
@@ -7888,6 +7983,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "ENABLED",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7896,6 +7992,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "FX_DRIVE",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7904,6 +8001,7 @@
                   {
                     "type": "effect",
                     "level": "instrument",
+                    "targetId": "fx_wave_shaper",
                     "parameter": "FX_OUTPUT_LEVEL",
                     "translation": "fixed_value",
                     "effectIndex": 2,
@@ -7912,6 +8010,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_2",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 2,
@@ -7920,6 +8019,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_3",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 3,
@@ -7928,6 +8028,7 @@
                   {
                     "type": "modulator",
                     "level": "instrument",
+                    "targetId": "mod_4",
                     "parameter": "MOD_AMOUNT",
                     "translation": "fixed_value",
                     "position": 4,
