@@ -3,9 +3,14 @@
 <DecentSampler>
   <ui bgImage="Resources/background.jpg" width="812" height="375" layoutMode="relative" bgMode="top_left">
     <keyboard>
-      <color loNote="0" hiNote="59" color="FF000000" />
-      <color loNote="60" hiNote="77" color="FFFFFFFF" />
-      <color loNote="78" hiNote="127" color="FF000000" />
+      <color loNote="0"   hiNote="5"   color="FFD22D2D" />
+      <color loNote="6"   hiNote="23"  color="FFFF5544" />
+      <color loNote="24"  hiNote="41"  color="FFFFA544" />
+      <color loNote="42"  hiNote="59"  color="FFFFFF44" />
+      <color loNote="60"  hiNote="77"  color="FFFFFFFF" />
+      <color loNote="78"  hiNote="95"  color="FFFFFF44" />
+      <color loNote="96"  hiNote="113" color="FFFFA544" />
+      <color loNote="114" hiNote="127" color="FFFF5544" />
     </keyboard>
     <tab name="main">
 
