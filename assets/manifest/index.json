@@ -1,7 +1,7 @@
 {
   "schema": 1,
   "format": "dmse-manifest",
-  "library": "4-track-toy-piano",
+  "library": "DecentSampler",
   "gainDb": -16.0,
   "modes": [
     "layered-pitch-stretched",
