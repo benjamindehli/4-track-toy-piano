@@ -1,28 +1,39 @@
-# 4-track Toy Piano - Version: [1.1]
+# 4-track Toy Piano
 
-Date: 2025-01-04
-
-Name: Benjamin Dehli
-
-Profile: [store.dehlimusikk.no][Gumroad profile]
-
-## Included formats
-
-- Decent Sampler
+A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at half speed results in an octave lower pitch.
 
 ## Release notes
 
-### Version 1.1 (2025-01-04)
+### Version 2.0.0 (upcoming)
+
+- Added a plugin version. See the section "The plugin version".
+
+### Version 1.1.0 (2025-01-04)
 
 - Removed amplitude envelope for one shot samples
 
-### Version 1.0 (2024-03-17)
+### Version 1.0.0 (2024-03-17)
 
 - First version released
 
-## Description
+## Included formats
 
-A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at half speed results in an octave lower pitch.
+- VST3 (macOS, Windows and Linux)
+- AU (macOS)
+- Standalone application (macOS, Windows and Linux)
+- Decent Sampler
+
+## The plugin version
+
+The plugin is a self-contained instrument for macOS, Windows and Linux, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
 
 ## Technical specification
 
@@ -35,6 +46,8 @@ A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back 
 
 - Layered
   - Normal speed samples and half speed samples are assigned to the same part of the keyboard.
+- Layered (Pitch Stretched)
+  - Like Layered, but the samples are also stretched further down the keyboard for slower and deeper sounds.
 - Split
   - Normal speed samples and half speed samples are assigned to different parts of the keyboard.
 
@@ -123,5 +136,12 @@ When the **hi-fi** switch is turned on, no effects are applied. When it's turned
 
 - Hi-fi
   - Turns the lo-fi effects on and off
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
 
 [Gumroad profile]: https://store.dehlimusikk.no/
