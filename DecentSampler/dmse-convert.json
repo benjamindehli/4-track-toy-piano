@@ -2,6 +2,10 @@
     "gain": -16,
     "normalizeIr": false,
     "reverbGain": -16,
+    "overlay": {
+        "default": "Resources/overlay_default.png"
+    },
+    "overlayScope": "instrument",
     "keyboardColors": {
         "Layered": [{ "loNote": 60, "hiNote": 77, "color": "none" }],
         "Layered (Pitch Stretched)": [
