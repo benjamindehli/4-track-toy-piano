@@ -1,5 +1,7 @@
 # 4-track Toy Piano
 
+**[Product page and documentation](https://benjamindehli.github.io/4-track-toy-piano/)**
+
 A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at half speed results in an octave lower pitch.
 
 ## Release notes
