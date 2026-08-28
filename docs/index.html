@@ -33,22 +33,37 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://benjamindehli.github.io/4-track-toy-piano/#website",
+      "name": "4-track Toy Piano",
+      "url": "https://benjamindehli.github.io/4-track-toy-piano/",
+      "description": "Product page and documentation for 4-track Toy Piano, a sample instrument by Dehli Musikk.",
+      "inLanguage": "en",
+      "author": {
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
+      },
+      "publisher": {
+        "@id": "https://www.dehlimusikk.no/"
+      },
+      "license": "https://www.gnu.org/licenses/gpl-3.0.html",
+      "about": {
+        "@id": "https://www.dehlimusikk.no/products/4-track-toy-piano/#product"
+      },
+      "sameAs": "https://github.com/benjamindehli/4-track-toy-piano"
+    },
+    {
       "@type": "SoftwareApplication",
-      "@id": "https://store.dehlimusikk.no/l/4-track-toy-piano",
+      "@id": "https://www.dehlimusikk.no/products/4-track-toy-piano/#product",
       "name": "4-track Toy Piano",
       "description": "4-track Toy Piano: A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at…",
       "url": "https://benjamindehli.github.io/4-track-toy-piano/",
       "applicationCategory": "MultimediaApplication",
       "applicationSubCategory": "Sample library / virtual instrument",
       "author": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f"
       },
       "publisher": {
-        "@type": "Organization",
-        "name": "Dehli Musikk",
-        "url": "https://www.dehlimusikk.no/"
+        "@id": "https://www.dehlimusikk.no/"
       },
       "operatingSystem": "macOS, Windows, Linux",
       "softwareVersion": "2.1.0",
@@ -56,19 +71,15 @@
       "image": "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-4-track-toy-piano.webp",
       "screenshot": [
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-4-track-toy-piano.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-4-track-toy-piano.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-instrument.webp",
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-instrument.webp",
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-mixer.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-mixer.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-echo.webp",
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-echo.webp",
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-reverb.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-reverb.webp",
-        "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-fidelity.webp",
         "https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-fidelity.webp"
       ],
       "sameAs": [
+        "https://www.dehlimusikk.no/products/4-track-toy-piano/",
+        "https://www.dehlimusikk.no/en/products/4-track-toy-piano/",
         "https://store.dehlimusikk.no/l/4-track-toy-piano",
         "https://dehlimusikk.gumroad.com/l/4-track-toy-piano",
         "https://www.cylex.no/bedrift-produkt/4-track-toy-piano_223144.html",
@@ -88,6 +99,18 @@
           "description": "Pay what you want, from $9.99"
         }
       }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://musicbrainz.org/artist/56639e59-2bb5-40bd-9d5a-97d964298b6f",
+      "name": "Benjamin Dehli",
+      "url": "https://www.dehlimusikk.no/"
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.dehlimusikk.no/",
+      "name": "Dehli Musikk",
+      "url": "https://www.dehlimusikk.no/"
     }
   ]
 }
