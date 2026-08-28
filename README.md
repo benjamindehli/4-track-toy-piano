@@ -120,8 +120,6 @@ These effects are achieved using carefully crafted impulse responses. The echo e
 |:--:|
 |Controls for the tape echo impulse response|
 
-Select from two distinctive echo options: the short echo, delivering a classic slapback effect, and the long echo, characterized by a slower decay and numerous repeats.
-
 - On
   - Turns the echo on and off
 - Long
@@ -134,8 +132,6 @@ Select from two distinctive echo options: the short echo, delivering a classic s
 |![Controls for the room reverb impulse response](/Screenshots/reverb.png)|
 |:--:|
 |Controls for the room reverb impulse response|
-
-You'll also find two reverb effects: the short reverb, evoking the intimacy of a small room, and the long reverb, enveloping your sound in the vastness of a spacious environment.
 
 - On
   - Turns the reverb on and off
