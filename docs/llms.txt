@@ -1,0 +1,235 @@
+# 4-track Toy Piano
+
+> 4-track Toy Piano: a Kalikå Leksakspiano on cassette tape at normal and half speed, playable an octave down. For VST3, AU and Decent Sampler.
+
+A sample instrument by Dehli Musikk. This is the markdown version of https://benjamindehli.github.io/4-track-toy-piano/, generated from the repository README.
+
+## Key facts
+
+- Plugin: VST3, AU and Standalone for macOS
+- Decent Sampler: macOS, Windows and Linux
+- Version: 2.1.0 (2026-08-01)
+- Price: Pay what you want, from $9.99
+- Sample rate: 48 kHz
+- Bit depth: 24 bit
+- Samples: 72 files
+- Sample content: 94.6 MB
+
+## Links
+
+- [Product page](https://benjamindehli.github.io/4-track-toy-piano/)
+- [4-track Toy Piano at Dehli Musikk](https://www.dehlimusikk.no/en/products/4-track-toy-piano/)
+- [Get it](https://store.dehlimusikk.no/l/4-track-toy-piano)
+- [Source on GitHub](https://github.com/benjamindehli/4-track-toy-piano)
+- [4-track Toy Piano - Sound Examples](https://benjamindehli.github.io/4-track-toy-piano/video/)
+
+## Video chapters
+
+- [0:00 Layered](https://benjamindehli.github.io/4-track-toy-piano/video/?t=0)
+- [0:33 Split](https://benjamindehli.github.io/4-track-toy-piano/video/?t=33)
+- [0:57 Pitch stretched](https://benjamindehli.github.io/4-track-toy-piano/video/?t=57)
+
+## Frequently asked questions
+
+### What is 4-track Toy Piano?
+
+4-track Toy Piano: a Kalikå Leksakspiano on cassette tape at normal and half speed, playable an octave down. For VST3, AU and Decent Sampler.
+
+### Which formats does 4-track Toy Piano come in?
+
+4-track Toy Piano is available as VST3, AU and Standalone for macOS, and as a Decent Sampler library for macOS, Windows and Linux.
+
+### Does 4-track Toy Piano run on Windows or Linux?
+
+The plugin version is released for macOS only. On Windows and Linux, the Decent Sampler version of 4-track Toy Piano covers the same instrument.
+
+### Does 4-track Toy Piano work in Logic Pro and Ableton Live?
+
+Yes. 4-track Toy Piano is available as both VST3 and AU, so it loads in any macOS host that reads those formats, including Logic Pro, Ableton Live, Cubase, Reaper and Studio One.
+
+### Do I need Decent Sampler to use 4-track Toy Piano?
+
+Not for the plugin version. It is a self-contained instrument with its samples embedded, so there are no external files to install or locate. The Decent Sampler version is a sample library, and that one needs the free Decent Sampler application.
+
+### What sample rate and bit depth is 4-track Toy Piano recorded at?
+
+The samples are 48 kHz, 24 bit.
+
+### How many samples does 4-track Toy Piano contain?
+
+72 sample files, 94.6 MB of audio. Impulse responses for the effects are not counted in that figure.
+
+### How much does 4-track Toy Piano cost?
+
+4-track Toy Piano is pay what you want, from $9.99, so the price shown is the minimum rather than a fixed one.
+
+### Where can I download 4-track Toy Piano?
+
+From the Dehli Musikk store at https://store.dehlimusikk.no/l/4-track-toy-piano.
+
+### Is the source code for 4-track Toy Piano available?
+
+Yes. The repository is public at https://github.com/benjamindehli/4-track-toy-piano and licensed under GPL-3.0. The audio files are not in the repository, because the samples are a paid product.
+
+---
+
+A Kalikå Leksakspiano (toy piano) recorded on to cassette tape and played back at half speed and normal/original speed. Playing back at half speed results in an octave lower pitch.
+
+## Release notes
+
+### Version 2.1.0 (2026-08-01)
+
+The changes in this release apply to the plugin version only. The DecentSampler version is unchanged.
+
+- Added a translucent overlay graphic on top of the interface.
+- Keys that are hovered or held on the keyboard are now shaded in a neutral way instead of turning yellow:
+  - White keys turn darker.
+  - Black keys turn brighter.
+- The computer keyboard keeps playing notes even while you adjust a control with the mouse.
+
+### Version 2.0.0 (2026-07-19)
+
+- Added a plugin version. See the section "The plugin version".
+
+### Version 1.1.0 (2025-01-04)
+
+- Removed amplitude envelope for one shot samples
+
+### Version 1.0.0 (2024-03-17)
+
+- First version released
+
+## Included formats
+
+- VST3 (macOS)
+- AU (macOS)
+- Standalone application (macOS)
+- Decent Sampler (macOS, Windows and Linux)
+
+The plugin version is currently released for macOS only.
+Windows and Linux versions are planned.
+Until then, the Decent Sampler version covers those platforms.
+
+## The plugin version
+
+The plugin is a self-contained instrument, available as VST3, AU and Standalone.
+Samples, graphics and impulse responses are all embedded in the plugin itself, losslessly compressed, so there are no external files to install or locate.
+Only the samples for the selected preset are loaded into memory, and a fresh instance lets you choose which preset to load before anything is decoded.
+
+The plugin has all the controls and features from the Decent Sampler version, including MIDI learn, the master volume fader with output meter, value readouts for the knobs and full DAW automation.
+On top of that, the plugin version adds:
+
+- Drift wheels next to the pitch and modulation wheels, adding a subtle random pitch and volume drift to each voice.
+- A velocity curve setting in the settings menu.
+
+## The Decent Sampler version
+
+This version of 4-track Toy Piano is an instrument preset / sample library for Decent Sampler. If you're new to Decent Sampler, I recommend checking out [this guide][Decent Sampler guide] first.
+
+## Technical specification
+
+|                       | Sample rate | Bit depth | Channels   | Number of files | File size |
+|----------------------:|------------:|----------:|------------|----------------:|----------:|
+|           **Samples** |      48 kHz |    24 bit | 2 (stereo) |              72 |  94.60 MB |
+| **Impulse responses** |      48 kHz |    24 bit | 2 (stereo) |               4 |   3.60 MB |
+
+## Instrument presets
+
+- Layered
+  - Normal speed samples and half speed samples are assigned to the same part of the keyboard.
+- Layered (Pitch Stretched)
+  - Like Layered, but the samples are also stretched further down the keyboard for slower and deeper sounds.
+- Split
+  - Normal speed samples and half speed samples are assigned to different parts of the keyboard.
+
+## User Interface
+
+|![Overview](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-4-track-toy-piano.webp)|
+|:--:|
+|Overview|
+
+### Instrument
+
+|![Button controls for the instrument settings](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-instrument.webp)|
+|:--:|
+|Button controls for the instrument settings|
+
+#### Velocity and damping
+
+- Velocity
+  - Determines whether the velocity should affect the volume of the samples
+- Damping
+  - When damping is off, the sample will continue to play after you release the key (like a toy piano)
+  - When damping is on, the sample will fade out quickly after you release the key
+
+### Mixer
+
+|![LFO controls](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-mixer.webp)|
+|:--:|
+|Mixer controls|
+
+#### Volume
+
+Mix between the normal speed samples and the half speed samples. They also have independent tremolo controls.
+
+#### Tremolo
+
+The **tremolo rate** and **tremolo depth** knobs enable you to modulate the amplitude of the sound with the desired depth and rate using a Low-Frequency Oscillator (LFO).
+
+- Tremolo Rate
+  - Tremolo rate determines the speed at which the modulation occurs
+- Tremolo Depth
+  - Adjust the Tremolo depth to introduce subtle or pronounced variations in volume
+
+### Effects
+
+These effects are achieved using carefully crafted impulse responses. The echo effect employs a Fulltone Tube Tape Echo recorded twice for stereo, while the reverb effect draws from a Chase Bliss Audio & Meris CXM 1978 reverb pedal with a room setting.
+
+#### Echo
+
+|![Controls for the tape echo impulse response](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-echo.webp)|
+|:--:|
+|Controls for the tape echo impulse response|
+
+- On
+  - Turns the echo on and off
+- Long
+  - Switches between a short slapback echo and a long echo with slow repeats and high feedback
+- Mix
+  - Mix between direct signal and echo signal
+
+#### Reverb
+
+|![Controls for the room reverb impulse response](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-reverb.webp)|
+|:--:|
+|Controls for the room reverb impulse response|
+
+- On
+  - Turns the reverb on and off
+- Long
+  - Switches between a short/small room reverb and a long/big room reverb
+- Mix
+  - Mix between direct signal and reverb signal
+
+### Fidelity
+
+|![Controls for the fidelity settings](https://benjamindehli.github.io/4-track-toy-piano/img/screenshots-fidelity.webp)|
+|:--:|
+|Controls for the fidelity settings|
+
+#### Hi-fi
+
+When the **hi-fi** switch is turned on, no effects are applied. When it's turned off, some filtering, saturation and modulation are added for a lo-fi effect. The saturation becomes more pronounced when you turn up the volume in the mixer section.
+
+- Hi-fi
+  - Turns the lo-fi effects on and off
+
+## About this repository
+
+This repository contains the source for both the Decent Sampler library (the DecentSampler folder) and the plugin version.
+The plugin is a thin wrapper around the shared Dehli Musikk sampler engine, and a converter translates the Decent Sampler library into the engine's native preset format at build time.
+The audio files are not part of this repository, since the samples are a paid product.
+The full version is available from [store.dehlimusikk.no][Gumroad profile].
+
+[Gumroad profile]: https://store.dehlimusikk.no/
+[Decent Sampler guide]: https://www.decentsamples.com/how-to-use-decent-sampler/
