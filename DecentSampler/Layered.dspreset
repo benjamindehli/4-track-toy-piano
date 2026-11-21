@@ -32,24 +32,24 @@
       </button>
 
       <!-- Normal speed -->
-      <control x="153" y="26" width="41" height="41" parameterName="normal-speed_volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="153" y="26" width="41" height="41" parameterName="Volume normal speed" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="normal-speed" parameter="AMP_VOLUME" />
       </control>
-      <control x="242" y="26" width="41" height="41" parameterName="normal-speed_lfo-depth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="242" y="26" width="41" height="41" parameterName="LFO depth normal speed" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="0" parameter="MOD_AMOUNT" />
       </control>
-      <control x="331" y="26" width="41" height="41" parameterName="normal-speed_lfo-rate" type="float" minValue="1" maxValue="9" textColor="FF000000" value="5.45" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="331" y="26" width="41" height="41" parameterName="LFO rate normal speed" type="float" minValue="1" maxValue="9" textColor="FF000000" value="5.45" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="0" parameter="FREQUENCY" />
       </control>
 
       <!-- Half speed -->
-      <control x="153" y="107" width="41" height="41" parameterName="half-speed_volume" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="153" y="107" width="41" height="41" parameterName="Volume half speed" type="float" minValue="0" maxValue="2" textColor="FF000000" value="1" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="amp" level="tag" identifier="half-speed" parameter="AMP_VOLUME" />
       </control>
-      <control x="242" y="107" width="41" height="41" parameterName="half-speed_lfo-depth" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="242" y="107" width="41" height="41" parameterName="LFO depth half speed" type="float" minValue="0" maxValue="1" textColor="FF000000" value="0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="1" parameter="MOD_AMOUNT" />
       </control>
-      <control x="331" y="107" width="41" height="41" parameterName="half-speed_lfo-rate" type="float" minValue="1" maxValue="9" textColor="FF000000" value="3.89" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="331" y="107" width="41" height="41" parameterName="LFO rate half speed" type="float" minValue="1" maxValue="9" textColor="FF000000" value="3.89" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding level="instrument" type="modulator" position="1" parameter="FREQUENCY" />
       </control>
 
@@ -74,7 +74,7 @@
       </button>
 
       <!-- Echo mix -->
-      <control x="617" y="26" width="41" height="41" parameterName="echo_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="617" y="26" width="41" height="41" parameterName="Echo mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" effectIndex="3" parameter="FX_MIX" factor="0.01" />
       </control>
 
@@ -99,7 +99,7 @@
       </button>
 
       <!-- Reverb mix -->
-      <control x="617" y="107" width="41" height="41" parameterName="reverb_mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
+      <control x="617" y="107" width="41" height="41" parameterName="Reverb mix" type="percent" minValue="0" maxValue="100" textColor="FF000000" value="0.0" style="custom_skin_vertical_drag" customSkinImage="Resources/knob.png" customSkinNumFrames="61" customSkinImageOrientation="vertical" mouseDragSensitivity="100">
         <binding type="effect" level="instrument" effectIndex="4" parameter="FX_MIX" factor="0.01" />
       </control>
 
