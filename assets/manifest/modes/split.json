@@ -1530,6 +1530,7 @@
         "buttons": [
           {
             "id": "btn_0",
+            "label": "Velocity",
             "rect": {
               "x": 19,
               "y": 61,
@@ -1574,6 +1575,7 @@
           },
           {
             "id": "btn_1",
+            "label": "Damping",
             "rect": {
               "x": 19,
               "y": 142,
@@ -1636,6 +1638,7 @@
           },
           {
             "id": "btn_2",
+            "label": "Echo",
             "rect": {
               "x": 415,
               "y": 61,
@@ -1682,6 +1685,7 @@
           },
           {
             "id": "btn_3",
+            "label": "Long echo",
             "rect": {
               "x": 504,
               "y": 61,
@@ -1728,6 +1732,7 @@
           },
           {
             "id": "btn_4",
+            "label": "Reverb",
             "rect": {
               "x": 415,
               "y": 142,
@@ -1774,6 +1779,7 @@
           },
           {
             "id": "btn_5",
+            "label": "Long reverb",
             "rect": {
               "x": 504,
               "y": 142,
@@ -1820,6 +1826,7 @@
           },
           {
             "id": "btn_6",
+            "label": "Hi-fi",
             "rect": {
               "x": 702,
               "y": 61,
