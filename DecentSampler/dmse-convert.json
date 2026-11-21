@@ -6,6 +6,15 @@
         "default": "Resources/overlay_default.png"
     },
     "overlayScope": "instrument",
+    "labels": {
+        "btn_0": "Velocity",
+        "btn_1": "Damping",
+        "btn_2": "Echo",
+        "btn_3": "Long echo",
+        "btn_4": "Reverb",
+        "btn_5": "Long reverb",
+        "btn_6": "Hi-fi"
+    },
     "keyboardColors": {
         "Layered": [{ "loNote": 60, "hiNote": 77, "color": "none" }],
         "Layered (Pitch Stretched)": [
