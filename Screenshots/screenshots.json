@@ -1,0 +1,93 @@
+{
+    "scale": 2,
+    "shots": [
+        {
+            "file": "4-track-toy-piano.png",
+            "mode": "Layered",
+            "window": true,
+            "set": {
+                "Volume normal speed": 0.7333,
+                "LFO depth normal speed": 0.275,
+                "LFO rate normal speed": 5.07,
+                "Volume half speed": 1.2667,
+                "LFO depth half speed": 0.115,
+                "LFO rate half speed": 3.5333,
+                "Echo mix": 29.0,
+                "Reverb mix": 40.0,
+                "btn_0": 1,
+                "btn_1": 1,
+                "btn_2": 1,
+                "btn_4": 1,
+                "btn_5": 1,
+                "pitchDrift": 0.29,
+                "volumeDrift": 0.43
+            }
+        },
+        {
+            "file": "echo.png",
+            "mode": "Layered (Pitch Stretched)",
+            "crop": {
+                "x": 411,
+                "y": 56,
+                "width": 277,
+                "height": 81
+            },
+            "set": {
+                "Echo mix": 20.0,
+                "btn_2": 1
+            }
+        },
+        {
+            "file": "fidelity.png",
+            "mode": "Layered (Pitch Stretched)",
+            "crop": {
+                "x": 698,
+                "y": 56,
+                "width": 99,
+                "height": 81
+            }
+        },
+        {
+            "file": "instrument.png",
+            "mode": "Layered (Pitch Stretched)",
+            "crop": {
+                "x": 15,
+                "y": 57,
+                "width": 99,
+                "height": 161
+            }
+        },
+        {
+            "file": "mixer.png",
+            "mode": "Layered (Pitch Stretched)",
+            "crop": {
+                "x": 124,
+                "y": 57,
+                "width": 277,
+                "height": 161
+            },
+            "set": {
+                "Volume normal speed": 1.53,
+                "LFO depth normal speed": 0.3,
+                "LFO rate normal speed": 5.2667,
+                "Volume half speed": 0.6,
+                "LFO depth half speed": 0.65,
+                "LFO rate half speed": 3.1333
+            }
+        },
+        {
+            "file": "reverb.png",
+            "mode": "Layered (Pitch Stretched)",
+            "crop": {
+                "x": 411,
+                "y": 137,
+                "width": 277,
+                "height": 81
+            },
+            "set": {
+                "Reverb mix": 71.6667,
+                "btn_4": 1
+            }
+        }
+    ]
+}
