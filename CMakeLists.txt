@@ -8,5 +8,5 @@
 dmse_add_plugin(FourTrackToyPiano
     PRODUCT_NAME "4-track Toy Piano"
     PLUGIN_CODE  Tp4t
-    VERSION      2.1.0
+    VERSION      2.2.0
 )
