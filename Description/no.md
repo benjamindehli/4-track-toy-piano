@@ -6,7 +6,7 @@ En dempebryter bestemmer om tonene klinger videre etter at tangenten slippes, sl
 
 Impulsresponser for båndekko og romklang avslutter kjeden. En Fulltone Tube Tape Echo spilt inn to ganger for stereo, og en Chase Bliss Audio & Meris CXM 1978 satt til romklang.
 
-72 stereosampler i 48 kHz / 24 bit, bygd inn i pluginen som tapsfri FLAC.
+72 stereosampler i 48 kHz / 24 bit, lagret som tapsfri FLAC i én samplefil som installasjonsprogrammet legger på plass.
 
 ## Funksjoner
 
@@ -18,4 +18,4 @@ Impulsresponser for båndekko og romklang avslutter kjeden. En Fulltone Tube Tap
 - Anslagsfølsomhet av eller på.
 - Hi-fi-bryter: slå den av for filtrering, metning og modulasjon som øker med nivået i mikseren.
 - Impulsresponser for båndekko og romklang, hver av dem kort eller lang.
-- 72 stereosampler i 48 kHz / 24 bit, bygd inn tapsfritt (98 MB kildebibliotek).
+- 72 stereosampler i 48 kHz / 24 bit, lagret tapsfritt (98 MB kildebibliotek).

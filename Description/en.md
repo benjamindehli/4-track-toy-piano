@@ -6,7 +6,7 @@ A damping switch decides whether notes ring on after the key is released, the wa
 
 Tape echo and room reverb impulse responses finish the chain. A Fulltone Tube Tape Echo recorded twice for stereo, and a Chase Bliss Audio & Meris CXM 1978 on a room setting.
 
-72 stereo samples at 48 kHz / 24-bit, embedded in the plugin as lossless FLAC.
+72 stereo samples at 48 kHz / 24-bit, stored as lossless FLAC in one sample file that the installer puts in place.
 
 ## Features
 
@@ -18,4 +18,4 @@ Tape echo and room reverb impulse responses finish the chain. A Fulltone Tube Ta
 - Velocity on or off.
 - Hi-fi switch: turn it off for filtering, saturation and modulation that grow with the mixer level.
 - Tape echo and room reverb impulse responses, each short or long.
-- 72 stereo samples at 48 kHz / 24-bit, embedded losslessly (98 MB source library).
+- 72 stereo samples at 48 kHz / 24-bit, stored losslessly (98 MB source library).
